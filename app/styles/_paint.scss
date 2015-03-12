@@ -1,0 +1,35 @@
+.paint {
+  width: 300px;
+  height: 300px;
+  background: #2bb206;
+  background-image: radial-gradient(circle at center, #69d528 110px, transparent 10px), radial-gradient(circle at center, #fff 130px, transparent 10px);
+  border-radius: 15px;
+  position: relative;
+  &:after {
+    width: 50px;
+    content: "";
+    height: 50px;
+    border-radius:80px 3px;
+    background: transparent;
+    display: block;
+    position: absolute;
+    background-image: radial-gradient(ellipse at 12px 47px, #fff 25px, transparent 11px);
+    box-shadow: 42px -96px 1px 5px #2bb206;
+    transform: rotateZ(-80deg);
+    bottom: 22px;
+    right: 50px;
+  }
+  &:before {
+    // box-shadow: 9px -50px 1px 5px blue;
+    transform: rotateZ(10deg);
+    bottom: 65px;
+    right: 84px;
+    position: absolute;
+    width: 60px;
+    content: "";
+    height: 100px;
+    border-radius:114px 0px;
+    background: #2bb206;
+    display: block;
+  }
+}
