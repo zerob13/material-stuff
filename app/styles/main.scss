@@ -1,21 +1,22 @@
 // bower:scss
 // endbower
-@import 'button';
-@import 'paint';
-@import 'spinner';
-@import 'grid';
+@import "button";
+@import "paint";
+@import "spinner";
+@import "grid";
+
 body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
-  height:100%;
-  width:100%;
-  padding:0;
-  margin:0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .hero-unit {
-  margin:auto;
+  margin: auto;
   background: #2196f3;
   width: 80%;
   font-size: 18px;
