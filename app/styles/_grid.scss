@@ -1,0 +1,22 @@
+.grid{
+  display:flex;
+  justify-content:center;
+  width:calc(100% - 40px);
+  margin-left:20px;
+  margin-right:20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .item{
+    display:block;
+    flex-basis:25%;
+    height:20px;
+    background:red;
+    box-sizing:border-box;
+    border:1px blue solid ;
+    &:after{
+      content:'flex with calc width';
+      overflow:hidden;
+      font-size:0.7rem;
+    }
+  }
+}
